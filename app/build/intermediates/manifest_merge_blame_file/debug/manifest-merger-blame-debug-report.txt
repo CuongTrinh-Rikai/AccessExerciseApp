@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rikaimind.appexercise"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:7:5-25:19
+14        android:name="com.rikai.exercise.UserTestApp"
+14-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:8:9-54
+15        android:allowBackup="true"
+15-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\ADMIN\.gradle\caches\transforms-3\b4a198665aa4d914c4022536b31f3545\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:13:9-35
+22        android:theme="@style/Theme.AppExercise" >
+22-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:14:9-49
+23        <activity
+23-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:15:9-24:20
+24            android:name="com.rikai.exercise.view.MainActivity"
+24-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:16:13-64
+25            android:exported="true"
+25-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:17:13-36
+26            android:theme="@style/Theme.AppExercise" >
+26-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:18:13-53
+27            <intent-filter>
+27-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:20:17-69
+28-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:22:17-77
+30-->D:\Projects\2022\Access Taiwan\Android\1\access_app_exercise\access_app_exercise\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\ADMIN\.gradle\caches\transforms-3\dbcb5031557708f7c80d4b5fc4de60ea\transformed\ui-tooling-1.0.1\AndroidManifest.xml:25:9-27:39
+34            android:name="androidx.compose.ui.tooling.PreviewActivity"
+34-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\ADMIN\.gradle\caches\transforms-3\dbcb5031557708f7c80d4b5fc4de60ea\transformed\ui-tooling-1.0.1\AndroidManifest.xml:26:13-71
+35            android:exported="true" />
+35-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\ADMIN\.gradle\caches\transforms-3\dbcb5031557708f7c80d4b5fc4de60ea\transformed\ui-tooling-1.0.1\AndroidManifest.xml:27:13-36
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\8804790e7a22e573ea6ac17600ff1533\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\8804790e7a22e573ea6ac17600ff1533\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+39            android:authorities="com.rikaimind.appexercise.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\8804790e7a22e573ea6ac17600ff1533\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\8804790e7a22e573ea6ac17600ff1533\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\8804790e7a22e573ea6ac17600ff1533\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\8804790e7a22e573ea6ac17600ff1533\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ADMIN\.gradle\caches\transforms-3\8804790e7a22e573ea6ac17600ff1533\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\111094ee2756e09929988fd576b29d8d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\111094ee2756e09929988fd576b29d8d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ADMIN\.gradle\caches\transforms-3\111094ee2756e09929988fd576b29d8d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+47            <meta-data
+47-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+48-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:32:17-85
+49                android:value="androidx.startup" />
+49-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:33:17-49
+50        </provider>
+51
+52        <receiver
+52-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:36:9-45:20
+53            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+53-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:37:13-76
+54            android:directBootAware="false"
+54-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:38:13-44
+55            android:enabled="true"
+55-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:39:13-35
+56            android:exported="true"
+56-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:40:13-36
+57            android:permission="android.permission.DUMP" >
+57-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:41:13-57
+58            <intent-filter>
+58-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:42:13-44:29
+59                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+59-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:43:17-91
+59-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\ADMIN\.gradle\caches\transforms-3\0b82a15240ed777328b7ceb37b49fe97\transformed\profileinstaller-1.0.3\AndroidManifest.xml:43:25-88
+60            </intent-filter>
+61        </receiver>
+62    </application>
+63
+64</manifest>
